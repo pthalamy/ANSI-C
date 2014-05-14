@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/* print Celsius-Fahrenheit table for celsius = -17.8, -6.7, ..., 148.9; floating point conversion */
+/* 1-4: print Celsius-Fahrenheit table for celsius = -17.8, -6.7, ..., 148.9;  */
 
 main()
 {

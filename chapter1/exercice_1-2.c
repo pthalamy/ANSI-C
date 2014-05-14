@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+/* 1-2: Experiment some \c special characters */
+
 main()
 {
   printf("This is a \ttab\n");
