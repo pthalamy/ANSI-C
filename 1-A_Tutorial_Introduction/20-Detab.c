@@ -6,9 +6,9 @@
 #undef EOF
 #define EOF '&'
 
-#define BLANK_COLUMN_NUM 2
+#define TABSTOP 2
 
-int get_line(char line[], int maxline);
+int get_line (char s[], int lim);
 
 int
 main(int argc, char *argv[])
@@ -34,8 +34,8 @@ get_line (char s[], int lim)
     if (c == '\t') {
       /* Store position */
       tabStart = i;
-      /* Print BLANK_COLUMN_NUM blanks */
-      for (j = tabStart; j < (tabStart + BLANK_COLUMN_NUM); ++j)
+      /* Print TABSTOP blanks */
+      for (j = tabStart; j < (tabStart + TABSTOP); ++j)
 	s[i++] = ' ';
       /* Decrement i to avoid skipping one index */
       --i;

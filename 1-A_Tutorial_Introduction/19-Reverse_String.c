@@ -6,7 +6,7 @@
 #undef EOF
 #define EOF '&'
 
-int get_line(char line[], int maxline);
+int get_line (char s[], int lim);
 void reverse(char s[]);
 
 int
